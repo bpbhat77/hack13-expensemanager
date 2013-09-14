@@ -1,0 +1,180 @@
+
+
+body {
+  margin-top: 6%;
+  background: url('../images/background.png');
+  
+  text-align: center;
+  color: #4b5f5f;
+}
+
+a {
+  color: #4b5f5f;
+ 
+  font-style: normal;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1, h3 {
+  font-family: Wellfleet;
+  font-weight: normal;
+  margin: .3em 0;
+}
+
+h3 {
+  display: inline-block;
+  font-size: 15px;
+  text-transform: none;
+  padding: 5px;
+  margin: 1em;
+  cursor: pointer;
+}
+
+  h3:hover, h3.selected {
+    border-bottom: 2px solid #4b5f5f;
+    border-top: 2px solid #4b5f5f;
+  }
+
+#container {
+  margin: 0 auto;
+  width: 1200px;
+}
+  
+  ul.collection {
+    margin: 0;
+  }
+  
+  ul.collection li {
+    display: inline-block;
+    width: 230px;
+    margin: 1em;
+  }
+.paging-links {
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	color: #003A80;
+	text-decoration: none;
+	border: 1px solid #003A80;
+	padding: 2px;
+	top: 3px;
+	position: relative;
+}
+.programme-description {
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+	padding-left: 50px;
+}
+.listing-head {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+}
+.edited-listing-head {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #FFF;
+	background-color: #F00;
+}
+.listing-head-title {
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+}
+.film-box {
+	border: 1px groove #003A80;
+	background-color: #9CF;
+	margin-bottom: 10px;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+}
+.normal-box {
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+}
+.videoplus {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-style: italic;
+	font-weight: normal;
+}
+.listings-day {
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	color: #FFF;
+	text-decoration: none;
+	border: 1px solid #003A80;
+	padding: 2px;
+	background-color: #003A80;
+}
+.edit-link {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 9px;
+	font-style: normal;
+	font-weight: bold;
+	color: #003A80;
+	background-color: #CCC;
+	text-decoration: none;
+	text-transform: capitalize;
+	padding: 1px;
+}
+.edit-programme-table {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	text-align: left;
+	vertical-align: top;
+	padding-bottom: 6px;
+	line-height: 17px;
+}
+.videoplus-result {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 36px;
+	font-weight: bold;
+	color: #003A80;
+	text-align: center;
+}
+.videoplus-result-details {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 15px;
+	vertical-align: top;
+	line-height: 20px;
+}
+.eventlist {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+	font-weight: normal;
+}
+.tv_calendar_week_no {
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: large;
+	font-weight: bold;
+	background-color: #CCC;
+}
+.tv_calendar_cell {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: large;
+	font-weight: normal;
+	color: #0E4F91;
+	text-align: center;
+	vertical-align: middle;
+	border: thin solid #CCC;
+}
+textarea { 
+    padding: 0;
+    margin: 0;
+    width:550px; 
+}
